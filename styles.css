@@ -2,48 +2,80 @@
 
 *, *::before, *::after { 
   box-sizing: border-box; 
-  margin-top: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
-/* Utility classes */
+body {
+  background-color: var(--blue1)
+}
 
+h1 {
+  font-size: 8vw;
+}
 
-/* Styles */ 
-
-#home {
+#hero {
+  background-size: cover;
+  background-image: url(/images/john-towner-FD_sabE544U-unsplash.jpg);
+  background-blend-mode: multiply;
+  background-color: grey;
+  height: 80vh;
+  padding: 1vh;
+  color: aliceblue;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 1vw;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 4vw;
 }
 
 #portfolio {
   display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .project {
-  flex: 0 0 30%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  height: 20vh;
+  flex: 0 0 40%;
+  margin: 1vw;
 }
 
 .project:first-of-type {
-  flex: 0 0 100%;
   display: flex;
   justify-content: center;
+  height: 25vh;
+  flex: 0 0 75%;
+  margin: 1vw;
 }
 
 #about {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #contact {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
   justify-content: center;
 }
