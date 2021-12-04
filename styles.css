@@ -7,45 +7,43 @@
 
 /* Utility classes */
 
-.flex {
+
+/* Styles */ 
+
+#home {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.column {
-  flex-direction: column;
-}
-
-.row {
+#portfolio {
+  display: flex;
+  justify-content: space-between;
   flex-direction: row;
-}
-
-.col_center {
-  align-self: center;
-}
-
-.col_right {
-  align-self: flex-end;
-}
-
-.row_center {
-  justify-content: center;
-}
-
-.row_right {
-  justify-content: flex-end;
-}
-
-.wrap {
   flex-wrap: wrap;
 }
 
-/* Styles */
-
 .project {
-  flex: 1 1 33.333333%;
-  width: 1000px;
+  flex: 0 0 30%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .project:first-of-type {
   flex: 0 0 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
 }
