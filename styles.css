@@ -1,38 +1,51 @@
-:root {
-  --text-color: white;
-  --sky-color: hsl(180, 61%, 45%);
-  --ocean-color: hsl(224, 85%, 45%);
-  --nav-color: hsl(300, 61%, 45%);
-  --about_me_color: hsl(120, 61%, 45%);
-  --contact_me_color: hsl(30, 61%, 45%);
+/* Removing whitespace */
+
+*, *::before, *::after { 
+  box-sizing: border-box; 
+  margin-top: 0;
 }
 
-body {
+/* Utility classes */
+
+.flex {
   display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.col_center {
+  align-self: center;
+}
+
+.col_right {
+  align-self: flex-end;
+}
+
+.row_center {
+  justify-content: center;
+}
+
+.row_right {
+  justify-content: flex-end;
+}
+
+.wrap {
   flex-wrap: wrap;
-  color: var(--text-color)
 }
 
-nav {
-  background-color: var(--nav-color);
+/* Styles */
+
+.project {
+  flex: 1 1 33.333333%;
+  width: 1000px;
 }
 
-.top {
-  width: 100vw;
-  background-color: var(--sky-color);
-}
-
-.bottom {
-  width: 100vw;
-  background-color: var(--ocean-color);
-}
-
-.about_me {
-  width: 100vw;
-  background-color: var(--about_me_color);
-}
-
-.contact_me {
-  width: 100vw;
-  background-color: var(--contact_me_color)
+.project:first-of-type {
+  flex: 0 0 100%;
 }
