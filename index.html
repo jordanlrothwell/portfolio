@@ -1,69 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
-  <title>Document</title>
-</head>
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
-<body>
-  <div id="hero">
-    <h1>Jordan Rothwell</h1>
+    <title>Jordan Rothwell | Web Developer</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
     <nav>
-      <ul>
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
+      <h1>Jordan Rothwell</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
     </nav>
-  </div>
-  <main id="portfolio">
-    <div id="project1" class="project">
-      <div class="card">
-        Project1
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img 
+        src="https://picsum.photos/800/1000" 
+        alt="jr-avatar" 
+        loading="lazy" 
+        class="hero-img">
+      <div class="bio">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quod esse eligendi illum repellat qui, ducimus similique nemo atque. Eligendi cumque, suscipit porro dolorum esse deleniti dolore asperiores quo. Eos?</p>
+    </section>
+    <!-- More about -->
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nihil tempora a sed nesciunt possimus veritatis ea facilis! Error sapiente minima quis nam aperiam maiores cum ea eligendi, minus magnam.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam sed hic quaerat in aliquid totam?</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolores saepe maxime harum amet quas, eos corporis exercitationem suscipit delectus?</p>
+    </section>
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="https://picsum.photos/300/200"
+            alt=""
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title"></h3>
+          <p class="project-details">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            ratione vel inventore labore commodi modi quos culpa aut saepe!
+            Alias!
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="https://picsum.photos/300/200"
+            alt=""
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title"></h3>
+          <p class="project-details">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            ratione vel inventore labore commodi modi quos culpa aut saepe!
+            Alias!
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="https://picsum.photos/300/200"
+            alt=""
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title"></h3>
+          <p class="project-details">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+            ratione vel inventore labore commodi modi quos culpa aut saepe!
+            Alias!
+          </p>
+          <a href="#" target="_blank" class="project-link">Check it Out</a>
+        </div>
       </div>
-    </div>
-    <div id="project2" class="project">
-      <p>Project2</p>
-    </div>
-    <div id="project3" class="project">
-      <p>Project3</p>
-    </div>
-    <div id="project4" class="project">
-      <p>Project4</p>
-    </div>
-    <div id="project5" class="project">
-      <p>Project5</p>
-    </div>
-    <div id="project6" class="project">
-      <p>Project6</p>
-    </div>
-    <div id="project7" class="project">
-      <p>Project7</p>
-    </div>
-    <div id="project8" class="project">
-      <p>Project8</p>
-    </div>
-    <div id="project9" class="project">
-      <p>Project9</p>
-    </div>
-    <div id="project10" class="project">
-      <p>Project10</p>
-    </div>
-  </main>
-  <section id="about">
-    <p>About me</p>
-  </section>
-  <section id="contact">
-    <p>Contact me</p>
-  </section>
-</body>
+    </section>
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylngw" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Scroll to top icon -->
+    <svg xmlns="http://www.w3.org/2000/svg" id="scroll-up" class="scroll-up up-arrow icon icon-tabler icon-tabler-arrow-up-circle" width="52" height="52" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <line x1="12" y1="8" x2="8" y2="12" />
+      <line x1="12" y1="8" x2="12" y2="16" />
+      <line x1="16" y1="12" x2="12" y2="8" />
+    </svg>
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2021</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="https://twitter.com/koladechris" target="_blank"
+          >Kolade Chris (Ksound)</a
+        >
+      </p>
+    </footer>
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
 
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
