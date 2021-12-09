@@ -1,68 +1,36 @@
-## Acceptance Criteria
+## 📋 Project Description
 
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
+I was tasked with desigining a portfolio page which met the following criteria:
+- name
+- recent photo or avatar
+- functioning links to sections:
+    - about
+    - projects
+        - first project is bigger than others
+        - links to project
+    - contact
+- responsive layout which adapts to different viewports
 
-```
-GIVEN I need to sample a potential employee's previous work
+## ✒️ Design 
 
-    WHEN I load their portfolio
-    THEN I am presented with the 
-        developer's name, 
-        a recent photo or avatar, 
-        and links to sections 
-            about them, 
-            their work, and 
-            how to contact them
+I had grand plans for the design of this landing page. I'm a fan of ocean themes, and set my heart on a modified version of this design:
 
-    WHEN I click one of the links in the navigation
-        THEN the UI scrolls to the corresponding section
-    
-    WHEN I click on the link to the section about their work
-        THEN the UI scrolls to a section with titled images of the  developer's applications
-    
-    WHEN I am presented with the developer's first application 
-        THEN that application's image should be larger in size than the others
-    
-    WHEN I click on the images of the applications
-        THEN I am taken to that deployed application
-
-    WHEN I resize the page or view the site on various screens and  devices
-        THEN I am presented with a responsive layout that adapts to my viewport
+![Image](link)
 
 
-## Grading Requirements
+This proved to be finnicky, and I quickly abandoned it in favour of a modified version of [this](https://www.youtube.com/watch?v=JqJNhM8i-nc&list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd&ab_channel=KevinPowell) landing page design:
 
-This homework is graded based on the following criteria: 
+![Image](link)
 
-    ### Technical Acceptance Criteria: 40%
+After some tinkering, I decided to start all over again so that a. I understood the design process better, and b. so that I understood what I was tinkering with.
 
-        * Satisfies all of the above acceptance criteria.
+I settled on a [tutorial](https://www.freecodecamp.org/news/how-to-build-a-developer-portfolio-website/#whatisadeveloperportfoliowebsite) by freecodecamp, because although I had some serious guard rails, I would hopefully be able to recreate a future ('real') version off the page using what I had learned. 
 
-    ### Deployment: 32%
+I learned a lot about design best practice and priciples, although I'm not ashamed to say that most of what I learned didn't make it into the submitted version.
 
-        * Application deployed at live URL.
+I was conscious that I had limited time, and settled for a functioning version which (hopefully) met the above criteria to a standard I could stomach (if only because I'd be able to re-create it later).
 
-        * Application loads with no errors.
-
-        * Application GitHub URL submitted.
-
-        * GitHub repository contains application code.
-
-    ### Application Quality: 15%
-
-        * Application resembles the mock-up functionality provided in the homework instructions.
-
-    ### Repository Quality: 13%
-
-        * Repository has a unique name.
-
-        * Repository follows best practices for file structure and naming conventions.
-
-        * Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-        * Repository contains multiple descriptive commit messages.
-
-        * Repository contains quality readme with description, screenshot, link to deployed application.
+## Features
 
 ## Review
 
