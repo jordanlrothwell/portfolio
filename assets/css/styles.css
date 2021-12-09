@@ -183,6 +183,7 @@ nav ul li {
   font-size: 1.5rem;
   line-height: var(--line-height);
   padding: 0.4rem;
+  text-align: center;
 }
 
 .projects {
@@ -409,6 +410,7 @@ footer {
 
   .bio p {
     text-align: justify;
+    font-size: 1.3em;
   }
 
   .projects-container {
