@@ -50,7 +50,7 @@ I was conscious that I had limited time, and settled for a functioning version w
 
 ### Scroll-to-top button
 
-![scroll-top]()
+![scroll-top](https://github.com/jordanlrothwell/portfolio/blob/main/assets/images/scroll-top.gif?raw=true)
 
 ## Things I'd Change
 
@@ -61,11 +61,15 @@ I took the attitude that I wasn't going to be able to focus on internalising the
 Off the top of my head:
 
 - the overall design
+- better use of font to distinguish headings vs. paragraphs
+- better use of colour
 - redundant CSS
 - accessibility
-- my process
+- my design process/workflow
 - add socials (e.g. github/linkedin/etc)
 - add skills (e.g. html, CSS, js)
 - add own design/logo
+- code comments
 
-### Resources used
+### Resources
+
