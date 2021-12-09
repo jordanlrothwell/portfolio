@@ -11,6 +11,8 @@ I was tasked with desigining a **portfolio page** which met the following criter
     - contact
 - responsive layout which adapts to different viewports
 
+## Link 
+
 ## ✒️ Design 
 
 I had grand plans for the design of this landing page. I'm a fan of ocean themes, and set my heart on a modified version of [this](https://www.youtube.com/watch?v=AWCCgQMwdik&ab_channel=WebDevSimplified) design:
@@ -30,7 +32,7 @@ I learned a lot about design best practice and priciples, although I'm not asham
 
 I was conscious that I had limited time, and settled for a functioning version which (hopefully) met the above criteria to a standard I could stomach (if only because I'd be able to re-create it later).
 
-## Features
+## ☑️ Features
 
 ### Hero image fade-in
 
@@ -52,7 +54,7 @@ I was conscious that I had limited time, and settled for a functioning version w
 
 ![scroll-top](https://github.com/jordanlrothwell/portfolio/blob/main/assets/images/scroll-top.gif?raw=true)
 
-## Things I'd Change
+## 🚯 Things I'd Change
 
 A lot.
 
@@ -71,5 +73,14 @@ Off the top of my head:
 - add own design/logo
 - code comments
 
-### Resources
+## 📚 Resources
 
+Placeholder images were sourced from [unsplash](https://unsplash.com/) and [lorem picsum](https://picsum.photos/) to avoid the need for any attribution.
+
+### Tutorials
+
+[Kevin Powell](https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw)
+
+[Web Dev Simplified](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw)
+
+### FURTHER RESOURCES WILL BE INCORPORATE IN FUTURE
