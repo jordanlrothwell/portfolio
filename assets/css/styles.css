@@ -104,7 +104,7 @@ nav ul li {
 
 .hero::before {
   background: linear-gradient(var(--bg-overlay), var(--bg-overlay)),
-    url("/assets/images/john-towner-FD_sabE544U-unsplash.jpg");
+    url("https://github.com/jordanlrothwell/portfolio/blob/main/assets/images/john-towner-FD_sabE544U-unsplash.jpg?raw=true");
   background-color: #cccccc;
   background-attachment: fixed;
   background-position: center center;
