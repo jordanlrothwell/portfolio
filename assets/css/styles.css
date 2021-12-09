@@ -195,6 +195,7 @@ nav ul li {
 .project-pic {
   width: 65%;
   height: 60%;
+  margin-bottom: var(--bottom-margin);
 }
 
 .main-project {
