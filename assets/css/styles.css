@@ -46,8 +46,8 @@ a:hover {
   color: var(--secondary-color);
 }
 
-body {
-    
+h3 {
+  text-align: center;
 }
 
 nav {
